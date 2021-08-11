@@ -10,7 +10,7 @@ spec:
       - name: app-storage
         mountPath: /storage
     - name: app2
-      image: yanivomc/spring-music:latest
+      image: supergiantkir/animals:moose
       volumeMounts:
       - name: app-storage
         mountPath: /storage
